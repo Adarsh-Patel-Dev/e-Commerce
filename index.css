@@ -34,7 +34,7 @@
     font-weight: 500;
     font-size: 3rem;
     padding: 1.5rem;
-    color: var(--LIGHT-GREEN);;
+    color: var(--LIGHT-GREEN);
 }
 
 .nav--search {
@@ -83,7 +83,7 @@
 
 .btn-solid {
     color: var(--WHITE);
-    background-color: var(--LIGHT-GREEN);;
+    background-color: var(--LIGHT-GREEN);
     border: 1px solid var(--WHITE);
     padding: 1rem 1rem;
     font-family: 'Montserrat', sans-serif;
@@ -123,7 +123,7 @@
     font-size: 5px;
     font-weight: 600;
     border-radius: 30px;
-    background-color: var(--LIGHT-GREEN);;
+    background-color: var(--LIGHT-GREEN);
     color: var(--BLACK-100);
     padding: 1px 1px;
     border: 2px solid var(--WHITE);
@@ -177,7 +177,7 @@
     font-weight: bold;
     font-size: 48px;
     line-height: 65px;
-    color: var(--LIGHT-GREEN);;
+    color: var(--LIGHT-GREEN);
 }
 
 .signup-input {
@@ -187,7 +187,7 @@
     align-items: center;
     width: 30rem;
     background: var(--WHITE);
-    border: 1px solid VAR(--LIGHT-GREEN);;
+    border: 1px solid VAR(--LIGHT-GREEN);
     box-sizing: border-box;
     border-radius: 100px;
 }
@@ -214,7 +214,7 @@
     font-weight: 700;
     font-size: 1.5rem;
 
-    background: VAR(--LIGHT-GREEN);;
+    background: VAR(--LIGHT-GREEN);
     box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     transition: 0.5s;
@@ -241,5 +241,5 @@
 }
 
 .signup-link {
-    color: VAR(--LIGHT-GREEN);;
+    color: VAR(--LIGHT-GREEN);
 }
