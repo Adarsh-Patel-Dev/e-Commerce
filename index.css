@@ -1,0 +1,250 @@
+@import url("main.css");
+
+
+.nav-bar {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: auto;
+    background: var(--BLACK-100);
+    position: sticky;
+}
+
+
+.nav--body {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+}
+
+.nav--header {
+    display: inline;
+    align-items: baseline;
+    font-weight: 500;
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+
+.nav--title {
+    display: inline;
+    align-items: center;
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+    font-size: 3rem;
+    padding: 1.5rem;
+    color: var(--LIGHT-GREEN);;
+}
+
+.nav--search {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 1rem;
+}
+
+
+.nav--search--input {
+    width: 40rem;
+    border: none;
+    height: 3rem;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 0.5rem;
+}
+
+
+
+.nav--search--btn {
+    border: 1px solid var(--WHITE);
+    background-color: transparent;
+    color: var(--WHITE);
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.nav--link {
+    text-decoration: none;
+    color: var(--WHITE);
+    transition: 0.5s;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.link-btn {
+    border: 1px solid var(--WHITE);
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+}
+
+
+.btn-solid {
+    color: var(--WHITE);
+    background-color: var(--LIGHT-GREEN);;
+    border: 1px solid var(--WHITE);
+    padding: 1rem 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-solid:hover {
+    background-color: var(--BLACK-100);
+    color: var(--WHITE);;
+    border: 1px solid var(--WHITE);
+    padding: 1rem 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.nav-links {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.nav--list {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    width: auto;
+    list-style: none;
+
+}
+
+.nav--item {
+    padding: 1.5rem;
+}
+
+.badge--number {
+    position: relative;
+    top: -15px;
+    right: -90%;
+    font-size: 5px;
+    font-weight: 600;
+    border-radius: 30px;
+    background-color: var(--LIGHT-GREEN);;
+    color: var(--BLACK-100);
+    padding: 1px 1px;
+    border: 2px solid var(--WHITE);
+}
+
+.fa {
+    font-size: 2rem;
+    color: var(--WHITE);
+}
+
+.btn-primary {
+    background-color: gray;
+}
+
+
+.bg-img {
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.signup-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    width: 35rem;
+    height: 45rem;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    gap: 1rem;
+    background: var(--WHITE);
+    opacity: 0.77;
+    box-shadow: 0 0 100px rgba(255, 255, 255, 0.25);
+    border-radius: 2.5rem;
+}
+
+.signup-title {
+    padding: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+    color: var(--LIGHT-GREEN);;
+}
+
+.signup-input {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    background: var(--WHITE);
+    border: 1px solid VAR(--LIGHT-GREEN);;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+.checkbox {
+    display: inline;
+    width: 30rem;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.btn-login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    width: 23rem;
+    height: 4.5rem;
+    color: var(--WHITE);
+    font-weight: 700;
+    font-size: 1.5rem;
+
+    background: VAR(--LIGHT-GREEN);;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: 0.5s;
+
+}
+
+.btn-login:hover {
+    background: var(--GREEN);
+    color: var(--WHITE);
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.signup-span {
+    padding: 2rem auto;
+    width:30rem;
+    height: 3rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.7rem;
+    line-height: 2rem;
+    color: var(--BLACK-100);
+
+}
+
+.signup-link {
+    color: VAR(--LIGHT-GREEN);;
+}
