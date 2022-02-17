@@ -2,7 +2,6 @@
 
 
 .nav-bar {
-    position: absolute;
     display: flex;
     width: 100%;
     height: auto;
@@ -47,7 +46,6 @@
 }
 
 .nav--search--input {
-    
     border: none;
     width: 40rem;
     height: 3rem;
@@ -140,7 +138,6 @@
 
 
 .bg-img {
-    
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
