@@ -55,9 +55,7 @@ li {
     list-style: none;
 }
 
-
 /*nav-bar*/
-
 
 .nav-bar {
     display: flex;
@@ -206,7 +204,6 @@ li {
 }
 
 .hero-text {
-    /* position: absolute; */
     width: 780px;
     font-family: inherit;
     font-style: normal;
@@ -217,7 +214,6 @@ li {
 }
 
 .hero-section-para {
-    /* position: absolute; */
     width: 780px;
     height: 65px;
     font-family: inherit;
@@ -270,7 +266,6 @@ img{
     font-weight: lighter;
     font-size: 1.8rem;
     font-family: inherit;
-    /* border: 1px solid var(--LIGHT-GREEN); */
     color: var(--LIGHT-GREEN);
     background-color: var(--WHITE);
     border-radius: 5px;
@@ -302,8 +297,6 @@ img{
     line-height: 65px;
     color: var(--GRAY-80);
 }
-
-
 
 .category{
     display: flex;
@@ -419,9 +412,6 @@ img{
     border-radius: 8rem;
     color: #fff;
 }
-
-
-
 
 .card--details{
     display: flex;
