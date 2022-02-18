@@ -9,10 +9,7 @@
 
 html{
     scroll-behavior: smooth;
-}
 
-:root {
-    font-size: 62.5%;
     font-family: 'Montserrat', sans-serif;
 
     --primary-color: #2196f3;
@@ -43,7 +40,7 @@ html{
     --MAROON-60: #2F1212;
 
     --LIGHT-GREEN: #76C310;
-    --TRANSPARENT-GREEN: #75c31083;
+
 }
 
 a {
