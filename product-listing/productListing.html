@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/product-listing/productListing.css">
+    <!-- <link rel="stylesheet" href="https://quantum-cl.netlify.app/css/component.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>QUANTUM UI | Home</title>
+</head>
+
+<body>
+
+    <!--navigation--container -->
+
+
+    <nav class="nav-bar">
+        <div class="nav--body">
+            <div class="nav--header">
+                <h2 class="nav--title">Plan<span style="color: white;">e</span>t</h2>
+            </div>
+            <div class="nav--search">
+                <input type="text" placeholder="Search here" class="nav--search--input">
+                <button class="nav--search--btn">
+                    <i class='fas fa-search' style='color: white'></i>
+                </button>
+            </div>
+
+            <div class="nav--links">
+                <ul class="nav--list">
+                    <li class="nav--item">
+                        <a href="#" class="nav--link">
+                            <span class="badge--number">13</span>
+                            <i class='fa fa-heart' style='color: white'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav--item">
+                        <a href="#" class="nav--link">
+                            <span class="badge--number">55</span>
+                            <i class='fa fa-shopping-cart' style='color: white'></i>
+
+                        </a>
+                    </li>
+                    <li class="nav--item">
+                        <a href="#" class="nav--link link-btn btn-solid">LogIn</a>
+                    </li>
+                    <li class="nav--item">
+                        <a href="#" class="nav--link link-btn">SignUp</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <!--main--container -->
+     
+    <section class="body-section">
+        <aside class="aside-section">
+            <div class="aside-section-header">
+                <h3 class="aside-section-title">Filters</h3>
+                <p class="clear-btn">Clear All</p>
+            </div>
+            
+            <div class="price-section">
+                <h3 class="aside-section-title-md">Price Range</h3>
+                
+                <!-- range input field -->
+                <div class="range-input-container">
+                    <!-- range input label -->
+                    <div class="price-label">
+                           <p>&#8377 100</p> <p>&#8377 150</p> <p>&#8377 300</p> <p>&#8377 500</p> 
+                    </div>
+                    <label class="slider" for="volume">
+                        <input class="input-range" type="range" min="100" max="200" value="300" name="volume"/>
+                    </label>
+                    
+                </div>
+            </div>
+
+            <div class="category-section">
+                <h3 class="aside-section-title-md">Categories</h3>
+                <div class="checkbox-input">
+                    <input type="checkbox" name="check"  class = "checkbox" checked/>
+                    <label for="check">All Plants</label>
+                </div>
+                <!-- checkbox input field -->
+                <div class="checkbox-input">
+                    <input type="checkbox" name="check"  class = "checkbox" /><label for="check"> Air Purifying Plants</label>
+                </div>
+                <!-- checkbox input field -->
+                <div class="checkbox-input">
+                    <input type="checkbox" name="check" class = "checkbox" /><label for="check"> Flowering Plants</label>
+                </div>
+                <!-- checkbox input field -->
+                <div class="checkbox-input">
+                    <input type="checkbox" name="check"  class = "checkbox" /><label for="check"> Indoor Plants</label>
+                </div>
+
+                <div class="checkbox-input">
+                    <input type="checkbox" name="check" class = "checkbox"  /><label for="check"> Herb Plants</label>
+                </div>
+            </div>
+
+            
+            
+
+            
+            <div class="rating-section">
+                <h3 class="aside-section-title-md">Rating</h3>
+                
+                <div class="radio-input">
+                    <input type="radio" name="radio" class="radio" /><label for="radio"> 4 <i class="fa fa-star" style="color: orange;"></i> & above</label>
+                </div>
+                
+                <div class="radio-input">
+                    <input type="radio" name="radio" class="radio" /><label for="radio"> 3 <i class="fa fa-star" style="color: orange;"></i> & above</label>
+                </div>
+                
+                <div class="radio-input">
+                    <input type="radio" name="radio" class="radio" /><label for="radio"> 2 <i class="fa fa-star" style="color: orange;"></i> & above</label>
+                </div>
+               
+                <div class="radio-input">
+                    <input type="radio" name="radio" class="radio" /><label for="radio"> 1 <i class="fa fa-star" style="color: orange;"></i> & above</label>
+                </div>
+            </div>
+
+            <div class="rating-section">
+                <h3 class="aside-section-title-md">Sort By</h3>
+
+                <div class="radio-input">
+                    <input type="radio" name="radio" class="radio" /><label for="radio"> Low to High</label>
+                </div>
+                
+                <div class="radio-input">
+                    <input type="radio" name="radio" class="radio" /><label for="radio"> High to Low</label>
+                </div>
+            </div>
+
+        </aside>
+
+        <section class="main-section">
+
+        </section>
+
+    </section>
+
+
+    
+
+
+</body>
+
+</html>
