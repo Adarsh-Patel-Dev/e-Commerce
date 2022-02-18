@@ -210,7 +210,7 @@ li {
     font-weight: 800;
     font-size: 123px;
     line-height: 162px;
-    color: #000000;
+    color: var(--BLACK-100);
 }
 
 .hero-section-para {
@@ -322,9 +322,11 @@ img{
 }
 
 .category-container:hover{
-    background-color: var(--GREEN);
-    color: var(--WHITE);
+    color: var(--WHITE); 
+    background-color: var(--LIGHT-GREEN);
+    border: transparent;
     transition: 0.5s;
+    box-shadow: 0px 0px 15px #636060 ;
 }
 
 .category-link{
@@ -394,7 +396,7 @@ img{
     height: 25px;
     background-color: var(--ORANGE);
     padding: 5px;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0 10px 10px 0;
     color: #fff;
     font-size: 14px;
 }
@@ -422,7 +424,7 @@ img{
 }
 
 .img-fluid{
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 0 0;
     margin-top: -10px;
     width: 100%;
     height: auto;
