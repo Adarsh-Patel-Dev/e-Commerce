@@ -2,7 +2,6 @@
 
 
 .nav-bar {
-    position: absolute;
     display: flex;
     width: 100%;
     height: auto;
@@ -16,7 +15,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     align-items: center;
 }
 
@@ -35,7 +33,7 @@
     font-weight: 500;
     font-size: 3rem;
     padding: 1.5rem;
-    color: var(--LIGHT-GREEN);;
+    color: var(--LIGHT-GREEN);
 }
 
 .nav--search {
@@ -56,9 +54,7 @@
     background: rgba(255, 255, 255, 0.11);
     border-radius: 0.5rem;
 }
-
-
-
+  
 .nav--search--btn {
     border: 1px solid var(--WHITE);
     background-color: transparent;
@@ -85,9 +81,10 @@
 }
 
 
+
 .btn-solid {
     color: var(--WHITE);
-    background-color: var(--LIGHT-GREEN);;
+    background-color: var(--LIGHT-GREEN);
     border: 1px solid var(--WHITE);
     padding: 1rem 1rem;
     font-family: 'Montserrat', sans-serif;
@@ -100,7 +97,6 @@
     padding: 1rem 1rem;
     font-family: 'Montserrat', sans-serif;
 }
-
 
 .nav-links {
     display: flex;
@@ -128,6 +124,7 @@
     font-size: 5px;
     font-weight: 600;
     border-radius: 30px;
+
     background-color: var(--LIGHT-GREEN);;
     color: var(--BLACK-100);
     padding: 1px 1px;
@@ -143,12 +140,12 @@
     background-color: gray;
 }
 
+
 .checkbox{
     accent-color: var(--LIGHT-GREEN);
 }
 
 .bg-img {
-    
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
@@ -184,6 +181,7 @@
     font-size: 3.84rem;
     line-height: 5.2rem;
     color: var(--LIGHT-GREEN);;
+
 }
 
 .signup-input {
@@ -193,6 +191,7 @@
     align-items: center;
     width: 30rem;
     background: var(--WHITE);
+
     border: 1px solid VAR(--LIGHT-GREEN);;
     box-sizing: border-box;
     border-radius: 100px;
@@ -220,11 +219,11 @@
     font-weight: 700;
     font-size: 1.5rem;
 
+
     background: VAR(--LIGHT-GREEN);;
     box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     transition: 0.5s;
-
 }
 
 .btn-login:hover {
@@ -248,5 +247,6 @@
 }
 
 .signup-link {
-    color: VAR(--LIGHT-GREEN);;
+
+    color: VAR(--LIGHT-GREEN);
 }
