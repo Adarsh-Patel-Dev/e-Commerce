@@ -1,0 +1,63 @@
+@import url("/main.css");
+@import url("/index.css");
+@import url("/card.css");
+
+
+.btn{
+    width: 15.5rem;
+}
+
+.wishlist-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    font-size: 4rem;
+    font-weight: 700;
+    margin: auto;
+}
+.card--buttons{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.card--horizontal{
+    max-width: 50%;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+    
+}
+
+.card{
+    padding: 0 2rem;
+    width: 75%;
+}
+
+.card--image{
+    width: auto;
+    height: auto;
+}
+
+.card--details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+    padding: 5px 0;
+    width: auto;
+}
+
+.wishlist-items{
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem auto;
+    padding: 5px 0;
+    width: auto;
+}
