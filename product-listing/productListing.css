@@ -1,4 +1,5 @@
 @import url("/index.css");
+@import url("/card.css");
 
 .body-section{
     display: flex;
@@ -7,13 +8,13 @@
 
 .aside-section{
     background-color: gainsboro;
-    height: 100vh;
+    height: 130vh;
     min-width: 25rem;
-    padding: 2rem 2rem;
+    padding: 2rem 2.5rem;
 }
 
 .main-section{
-    background-color: gray;
+    /* background-color: rgba(189, 204, 189, 0.781); */
     width: 100%;
 }
 
@@ -101,4 +102,24 @@
      display: flex;
     gap: 10px;
    
+}
+
+/*main-section*/
+
+.main-section{
+    padding: 3rem ;
+}
+
+.main-section-title{
+    font-size: 3rem;
+    font-weight: 550;
+}
+
+.main-section-card{
+   margin-top: 4rem;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 4rem;
+   justify-content: center;
+   align-items: center;
 }
