@@ -51,11 +51,14 @@
     border: none;
     height: 3rem;
     padding: 2rem;
-    background: rgba(255, 255, 255, 0.11);
+    background: rgba(255, 255, 255, 0.164);
+    color: var(--WHITE);
+    font-family: inherit;
     border-radius: 0.5rem;
 }
   
 .nav--search--btn {
+    cursor: pointer;
     border: 1px solid var(--WHITE);
     background-color: transparent;
     color: var(--WHITE);

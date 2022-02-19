@@ -8,8 +8,8 @@
 
 .aside-section{
     background-color: gainsboro;
-    /* height: 130vh; */
-    max-height: 200%;
+    overflow-y: scroll;
+    /* max-height: 200%; */
     min-width: 25rem;
     padding: 2rem 2.5rem;
 }
