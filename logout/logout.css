@@ -1,0 +1,14 @@
+@import url("/index.css");
+
+.logout-label{
+    font-size: 2rem;
+    font-weight: 500;
+    /* margin: auto; */
+    padding: 1rem 0;
+}
+
+.outline{
+    border: 1px solid var(--LIGHT-GREEN);
+    background-color: transparent;
+    color: var(--LIGHT-GREEN);
+}
