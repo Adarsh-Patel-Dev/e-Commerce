@@ -9,6 +9,11 @@
     position: sticky;
 }
 
+.btn-icon{
+    color: var(--WHITE);
+}
+
+
 
 .nav--body {
     width: 100%;
@@ -27,6 +32,7 @@
 }
 
 .nav--title {
+    cursor: pointer;
     display: inline;
     align-items: center;
     letter-spacing: 0.2rem;
