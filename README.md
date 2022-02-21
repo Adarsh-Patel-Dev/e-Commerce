@@ -1,7 +1,7 @@
 # PLANeT UI🌿
 
 Planet Ecommerce is an all in one place for purchasing different types of plants.
-Live Link : [PLANeT UI🌿](planet-store.netlify.app)
+Live Link : [PLANeT UI🌿](https://planet-store.netlify.app/landing-page/landing.html)
 
 ## Technology Used
 - HTML
